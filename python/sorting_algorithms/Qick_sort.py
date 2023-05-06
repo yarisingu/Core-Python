@@ -17,7 +17,7 @@ if len(arr)==1 or len(arr)==2:
     print("please give more than two values")
 else:
     print(quicksort(arr))
-    if quicksort(arr)[0]%10==0:
+    if quicksort(arr)[2]%10==0:
         print("The second index of array is even")
     else:
         print("The second index of array is odd")
