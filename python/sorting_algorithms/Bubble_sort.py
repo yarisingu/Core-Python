@@ -21,4 +21,4 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 sortedarr = bubble_sort(arr)
 #print
 print(sortedarr)
-arm(10)
+arm(len(arr))
