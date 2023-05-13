@@ -33,7 +33,7 @@ def play_game():
 
 def read_high_score():
     try:
-        with open("high_score.txt", "r") as file:
+        with open("C:\\Users\\yaris\\OneDrive\\Desktop\\deleteafteruse\\python\\files_create_with_python_code\\createdbypython.txt", "r") as file:
             high_score = int(file.read())
     except FileNotFoundError:
         high_score = float('inf')
@@ -41,7 +41,7 @@ def read_high_score():
     return high_score
 
 def write_high_score(score):
-    with open("high_score.txt", "w") as file:
+    with open("C:\\Users\\yaris\\OneDrive\\Desktop\\deleteafteruse\\python\\files_create_with_python_code\\createdbypython.txt", "w") as file:
         file.write(str(score))
 
 # Start the game
